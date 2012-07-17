@@ -13,7 +13,6 @@ If you need keys visit: http://archive.org/account/s3.php
 """
 
 import os
-import sys
 import boto
 
 from boto.s3.key import Key
