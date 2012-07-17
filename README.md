@@ -13,6 +13,4 @@ Then follow these steps:
 1. ./fetch.py
 1. ./archive.py
 
-The results are available at:
-
-  [http://archive.org/details/kasabi](http://archive.org/details/kasabi)
+The results are available at [http://archive.org/details/kasabi](http://archive.org/details/kasabi)
