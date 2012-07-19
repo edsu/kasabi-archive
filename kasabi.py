@@ -157,11 +157,6 @@ class Dataset:
 if __name__ == "__main__":
     logging.basicConfig(stream=sys.stderr, level=logging.ERROR)
     for ds in Dataset.all():
-        s1 = ds.ia_size
-        s2 = ds.size
-        if s1 != s2:
-            print ds, s1, s2
-        continue
         if not ds.downloaded:
             print "downloading %s" % ds
             ds.download()
